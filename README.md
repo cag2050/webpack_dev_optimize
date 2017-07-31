@@ -2,6 +2,13 @@
 
 > A Vue.js project
 
+vue-cli项目的webpack2开发时编译速度优化  
+针对vue-cli(vue init webpack)构建的npm run dev命令，优化方法
+
+* 开发时编译速度优化方法：
+1. 减少module数量。比如页面个数等
+1. 减去preloader比如eslint等
+
 ## Build Setup
 
 ``` bash
